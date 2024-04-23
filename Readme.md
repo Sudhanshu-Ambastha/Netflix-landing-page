@@ -6,7 +6,7 @@ A simple and stylish Netflix landing page replica created using HTML and CSS.
 
 ## Preview
 
-![Netflix Landing Page Preview](preview.png)
+![Netflix Landing Page Preview](https://github.com/Sudhanshu-Ambastha/Netflix-landing-page/assets/135802131/9f8865bf-047f-4aec-80a1-451c2a2da811)
 
 ## Features
 
@@ -48,7 +48,3 @@ Feel free to modify the code to suit your needs, such as changing the background
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
