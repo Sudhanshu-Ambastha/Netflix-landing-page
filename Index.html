@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        #bgshade {
+            background-image: url("https://static.standard.co.uk/2022/11/16/10/netflix-s.jpg?width=1200");
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+
+        #bgshadow {
+            background: rgba(0, 0, 0, 0.7);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #header {
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+        #logo img {
+            width: 100px;
+        }
+
+        #buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        button#signin, #register {
+            background-color: red;
+            padding: 8px 14px;
+            color: white;
+            border: none;
+            font-size: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #main {
+            text-align: center;
+            padding: 150px 50px 50px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        p {
+            font-size: 1em;
+            margin-bottom: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bgshade">
+        <div id="bgshadow">
+            <div id="header">
+                <div id="logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png"
+                        alt="Netflix Logo">
+                </div>
+                <div id="buttons">
+                    <button id="signin">Sign In</button>
+                    <button id="register">Register</button>
+                </div>
+            </div>
+            <div id="main">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <h3>Watch anywhere. Cancel anytime.</h3>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
